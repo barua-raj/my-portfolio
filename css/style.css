@@ -1,0 +1,23 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri;
+	word-spacing: 2px;
+}
+
+/* navbar starts */
+
+.nav-menu {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.nav-item {
+	color: #fcad03;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* navbar ends*/

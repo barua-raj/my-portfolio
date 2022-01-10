@@ -1,0 +1,137 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri;
+	word-spacing: 2px;
+	text-align: justify;
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.name {
+	border-bottom: 2px solid black;
+	flex-basis: 50%;
+}
+.name h2 {
+	padding-bottom: 10px;
+	font-size: 35px;
+}
+.name h5 {
+	font-size: 16px;
+}
+.photo {
+	text-align: right;
+	flex-basis: 50%;
+	border-bottom: 2px solid black;
+}
+.photo img {
+	width: 130px;
+	height: 130px;
+}
+.object {
+	padding-top: 14px;
+}
+.object h2 {
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 7px;
+}
+.object p {
+	font-size: 20px;
+	margin-bottom: 8px;
+	text-indent: 30px;
+}
+.edu-table {
+	flex-basis: 100%;
+}
+.edu-table h2 {
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.table-1 th, td {
+	border: 1px solid black;
+}
+.table-1 {
+	width: 90%;
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 8px;
+}
+.table-head h3{
+	font-size: 18px;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+}
+.table-content-1 {
+	padding: 15px 10px 15px 10px;
+}
+.table-content-1 p {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.table-2 {
+	width: 90%;
+	border-collapse: collapse;
+	margin: auto;
+}
+.skill {
+	flex-basis: 100%;
+	margin-bottom: 8px;
+}
+.skill h2 {
+	text-decoration: underline;
+	font-size: 22px;
+	margin-bottom: 7px;
+}
+.skill p {
+	font-size: 20px;
+	text-indent: 50px;
+	margin-bottom: 8px;
+}
+.skill-mark {
+	padding-bottom: 8px;
+}
+.skill p:before {
+	content: ' \25A0';
+}
+.per {
+	flex-basis: 100%;
+	margin-bottom: 20px;
+}
+.per h2 {
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.per-menu {
+	font-size: 20px;
+	padding-left: 10px;
+}
+.per-details {
+	font-size: 20px;
+	padding-left: 40px;
+}
+.sig {
+	border-top: 2px solid black;
+	width: 100%;
+}
+.sig h3 {
+	text-indent: 10px;
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 10px;
+}
+.sig img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 40px;
+}

@@ -53,18 +53,20 @@ body {
 }
 .home-page h1 {
   position: relative;
-  font-size: 70px;
-  font-weight: 800;
+  font-size: 60px;
+  font-weight: 600;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: -50px;
+  margin-bottom: 30px;
 }
 .home-page h4 {
-	font-weight: 800;
+	font-size: 20px;
+	font-weight: 550;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	word-spacing: 3px;
+	margin-bottom: 50px;
 }
 .home-page-button {
 	font-weight: 800;
@@ -72,4 +74,11 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	word-spacing: 3px;
+	border: 1px solid #b28564;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 20px 10px 20px;
+}
+.home-page-button:hover {
+	border: 1px solid #000000;
+	background: #82b74b;
 }

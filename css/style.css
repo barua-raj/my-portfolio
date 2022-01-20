@@ -197,3 +197,126 @@ body {
     box-shadow: 3px 4px 4px 1px #5f483a;
     transform: scale(1.01);
 }
+
+/* skills */
+
+.skills {
+	margin-bottom: 100px;
+}
+.skills-head h1 {
+	margin-bottom: 100px;
+}
+.skills-images {
+	display: flex;
+}
+.image-flex {
+	flex-basis: auto;
+	margin: auto;
+	width: 85px;
+	height: 85px;
+}
+
+/* work process */
+
+/* main service starts */
+
+.work-process {
+	margin-top: 40px;
+	margin-bottom: 120px;
+}
+.work-process-head {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.work-process-head h1 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	word-spacing: 4px;
+	text-transform: uppercase;
+	position: relative;
+	color: #000000;
+}
+.work-process-head h1:after {
+	content: "";
+	width: 150px;
+	height: 1px;
+    background: #e39c02;
+	position: absolute;
+	left: 478px;
+    bottom: -7px;
+}
+.work-process-icon {
+	font-size: 25px;
+	font-weight: 300;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin: auto;
+	transition: all .8s ease-in;
+	margin-bottom: 50px;
+	color: #000000;	
+}
+.work-process-icon a {
+	color: inherit;
+}
+.work-process-content:hover .services-icon{
+	background: #d9d9d9;
+	cursor: pointer;
+	color: ;
+}
+.work-process-text h5{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.work-process-text p {
+	font-size: 16px;
+	text-align: center;
+}
+.work-process-text p:first-letter {
+	font-size: 30px;
+}
+.work-process-number{
+    border-top: 1px solid #f2f2f2;
+    position: relative;
+    padding: 30px;
+}
+.work-process-serial-number {
+    background-color: #444;
+    border: 5px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    height: 60px;
+    left: 50%;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    transform: translateX(-50%);
+    width: 60px;
+}
+
+.work-process-icon img {
+	display: inline-block;
+	margin: auto;
+	width: 85px;
+	height: 85px;
+}
+
+/* footer */
+
+.footer-section {
+	height: 50px;
+	line-height: 50px;
+}
+.footer-text p {
+	color: #ffffff;
+	text-align: center;
+}

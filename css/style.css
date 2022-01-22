@@ -408,3 +408,43 @@ body {
         border-color: #000000;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
 }
+
+.contact-email h5 {
+	color: #f14d41;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 600;
+}
+.contact-email p {
+	text-align: right;
+}
+.contact-phone h5 {
+	color: #f14d41;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 600;
+}
+.contact-phone p {
+	text-align: right;
+}
+.contact-address h5 {
+	color: #f14d41;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 600;
+}
+.contact-address p {
+	text-align: right;
+}
+.contact-icon {
+	text-align: right;
+	font-size: 25px;
+	text-decoration: none;
+	color: #60493b;
+}
+.contact-icon a {
+	color: inherit;
+}

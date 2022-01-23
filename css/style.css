@@ -439,7 +439,7 @@ body {
 .contact-address p {
 	text-align: right;
 }
-.contact-icon {
+/*.contact-icon {
 	text-align: right;
 	font-size: 25px;
 	text-decoration: none;
@@ -447,4 +447,14 @@ body {
 }
 .contact-icon a {
 	color: inherit;
+}
+*/
+
+.contact-images {
+	display: flex;
+	justify-content: flex-end;
+}
+.contact-image-flex {
+	width: 45px;
+	height: 45px;
 }

@@ -25,7 +25,7 @@ body {
 }
 
 .nav-menu-name:hover {
-   color: #008000;
+   color: #f14d41;
   
 }
 /* navbar ends*/
@@ -36,8 +36,10 @@ body {
   	align-items: center;
   	justify-content: center;
   	position: relative;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
+	background-color: #f2f2f2;
 }
+/*
 .home-page:before {
 	background-image: url("../img/mockaroon-SGwvtNLmDeU-unsplash.jpg");
 	background-repeat: no-repeat;
@@ -52,6 +54,7 @@ body {
 	bottom: 0px;
 	left: 0px;
 }
+*/
 .home-page h1 {
 	position: relative;
 	font-size: 60px;
@@ -59,7 +62,7 @@ body {
 	text-align: center;
 	margin-top: -50px;
 	margin-bottom: 30px;
-	color: #622569;
+	color: #5a473a;
 }
 .home-page h4 {
 	font-size: 20px;
@@ -89,30 +92,15 @@ body {
 /* main service starts */
 
 .services {
-	margin-top: 40px;
-	margin-bottom: 120px;
-}
-.services-head {
-	text-align: center;
 	margin-bottom: 100px;
 }
 .services-head h1 {
-	font-size: 22px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	word-spacing: 4px;
+	text-align: center;
 	text-transform: uppercase;
-	position: relative;
-	color: #000000;
-}
-.services-head h1:after {
-	content: "";
-	width: 150px;
-	height: 1px;
-    background: #e39c02;
-	position: absolute;
-	left: 478px;
-    bottom: -7px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ad5292;
+	margin-bottom: 100px;
 }
 .services-head h6 {
 	font-size: 17px;
@@ -161,55 +149,26 @@ body {
 /* portfolio starts */
 
 
-
-.portfolio {
-	background-color: #3A233F;
-    background-image: -webkit-linear-gradient(bottom, #3A233F, transparent 80%),-webkit-radial-gradient(at 50% 660px, #BD10E1, #3A233F 89%);
-    background-image: linear-gradient(
-0deg
-, #3A233F, transparent 80%),radial-gradient(at 50% 660px, #BD10E1, #3A233F 89%);
-
-}
-
-
-
-
 .portfolio {
 	margin-bottom: 100px;
 }
-
-.popular-products-head h1 {
+.portfolio-head h1 {
 	text-align: center;
-	font-size: 22px;
-	font-weight: 600;
-	margin-bottom: 50px;
-	word-spacing: 4px;
 	text-transform: uppercase;
-	color: #5f483a;
-	position: relative;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ad5292;
+	margin-bottom: 100px;
 }
-.popular-products-head h1:after {
-	content: "";
-	width: 110px;
-	height: 1px;
-	background: #e39c02;
-	left: 510px;
-	bottom: -6px;
-	position: absolute;
-}
-.popular-products-head h6 {
-	font-size: 17px;
-	font-weight: 300;
-	text-align: center;
-}
+
 .portfolio-card {
-	transition: all .8s ease;
+	transition: all .3s ease-out;
 	box-shadow: 2px 6px 6px 2px #cccccc;
 	margin: auto;
 	flex-basis: 75%;
 }
-.portfolio-card:hover {
-    box-shadow: 3px 4px 4px 1px #5f483a;
+.portfolio-card:hover{
+    box-shadow: 5px 6px 6px 2px #5f483a;
     transform: scale(1.01);
 }
 
@@ -236,6 +195,11 @@ body {
 	margin-bottom: 100px;
 }
 .skills-head h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ad5292;
 	margin-bottom: 100px;
 }
 .skills-images {
@@ -244,8 +208,8 @@ body {
 .image-flex {
 	flex-basis: auto;
 	margin: auto;
-	width: 85px;
-	height: 85px;
+	width: 80px;
+	height: 80px;
 }
 
 /* work process */
@@ -261,80 +225,45 @@ body {
 	margin-bottom: 100px;
 }
 .work-process-head h1 {
-	font-size: 22px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	word-spacing: 4px;
+	text-align: center;
 	text-transform: uppercase;
-	position: relative;
-	color: #000000;
-}
-.work-process-head h1:after {
-	content: "";
-	width: 150px;
-	height: 1px;
-    background: #e39c02;
-	position: absolute;
-	left: 478px;
-    bottom: -7px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ad5292;
 }
 .work-process-icon {
-	font-size: 25px;
-	font-weight: 300;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
+	font-size: 30px;
 	text-align: center;
-	margin: auto;
-	transition: all .8s ease-in;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	color: #000000;	
-}
-.work-process-icon a {
-	color: inherit;
-}
-.work-process-content:hover .services-icon{
-	background: #d9d9d9;
-	cursor: pointer;
-	color: ;
 }
 .work-process-text h5{
 	font-size: 16px;
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: 30px;
 	color: #000000;
 	text-transform: uppercase;
 }
-.work-process-text p {
-	font-size: 16px;
-	text-align: center;
-}
-.work-process-text p:first-letter {
-	font-size: 30px;
-}
 .work-process-number{
-    border-top: 1px solid #e39c02;
+    margin-bottom: 60px;
     position: relative;
     padding: 20px;
 }
 .work-process-serial-number {
-    background-color: #444;
-    border: 5px solid #fff;
+    background-color: #a6a6a6;
     border-radius: 40px;
-    color: #fff;
+    color: green;
     font-size: 20px;
     font-weight: 700;
-    height: 60px;
+	width: 65px;
+    height: 65px;
+	line-height: 65px;
     left: 50%;
-    line-height: 45px;
     position: absolute;
     text-align: center;
     top: -30px;
     transform: translateX(-50%);
-    width: 60px;
 }
-
 .work-process-icon img {
 	display: inline-block;
 	margin: auto;
@@ -389,6 +318,13 @@ body {
 
 /* contact form */
 
+.contact-head h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ad5292;
+}
 .submit-button {
 	background: #ffffff;
 	color: #000000;
@@ -454,7 +390,20 @@ body {
 	display: flex;
 	justify-content: flex-end;
 }
-.contact-image-flex {
-	width: 45px;
-	height: 45px;
+.contact-image-flex-1 {
+	width: 44px;
+	height: 44px;
+	margin-right: -10px;
+	margin-top: -10px;
+}
+.contact-image-flex-2 {
+	width: 44px;
+	height: 44px;
+	margin-right: -10px;
+	margin-top: -10px;
+}
+.contact-image-flex-3 {
+	width: 44px;
+	height: 44px;
+	margin-top: -10px;
 }

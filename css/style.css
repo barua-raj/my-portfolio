@@ -5,7 +5,8 @@
 }
 body {
 	font-family: Calibri;
-	word-spacing: 2px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
 }
 
 /* navbar starts */
@@ -15,13 +16,16 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+.navbar {
+	color: #000000;
+}
 .nav-item {
 	color: #fcad03;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 .nav-menu-name {
-	color: #000000;
+	color: #333333;
 	font-weight: 550;
 	font-size: 17px;
 	letter-spacing: 2px;
@@ -43,7 +47,10 @@ body {
   	justify-content: center;
   	position: relative;
 	margin-bottom: 100px;
+	background-color: #beedf3;
 }
+
+/*
 .home-page:before {
 	background-image: url("../img/home-page.jpg");
 	background-repeat: no-repeat;
@@ -58,22 +65,30 @@ body {
 	bottom: 0px;
 	left: 0px;
 }
+*/
 .home-page h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	position: relative;
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: 600;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-bottom: 70px;
-	color: #404040;
+	color: #737373;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+.name {
+	color: #000000;
 }
 .home-page h4 {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 550;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	word-spacing: 3px;
+	letter-spacing: 2px;
 	margin-bottom: 70px;
 	color: #2098f5;
 }
@@ -83,18 +98,18 @@ body {
 	border: 1px solid #000000;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 7px 23px 7px 23px;
 	font-size: 14px;
-	word-spacing: 3px;
+	letter-spacing: 1.5px;
 	font-weight: 600;
 	position: relative;
-	padding: 10px 20px 10px 20px;
+	padding: 8px 20px 8px 20px;
 	margin: 10px 50px 10px 50px;
 	
 }
 .home-page-button-1:hover {
 	background: #ffffff;
 	color: #000000;
+	transition-delay: 0.2s;
 }
 .home-page-button-2 {
 	background: #ffffff;
@@ -104,21 +119,22 @@ body {
 	text-transform: uppercase;
 	padding: 7px 23px 7px 23px;
 	font-size: 14px;
-	word-spacing: 3px;
+	letter-spacing: 1.5px;
 	font-weight: 600;
 	position: relative;
-	padding: 10px 20px 10px 20px;
+	padding: 8px 20px 8px 20px;
 	margin: 10px 50px 10px 50px;
 	
 }
 .home-page-button-2:hover {
 	background: #000000;
 	color: #ffffff;
+	transition-delay: 0.2s;
 }
 .home-icon {
 	text-align: center;
 	position: relative;
-	margin-top: 80px;
+	margin-top: 70px;
 	font-size: 22px;
 }
 .home-icon-1 {
@@ -154,20 +170,31 @@ body {
 	margin-bottom: 100px;
 }
 .services-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #2098f5;
+	letter-spacing: 2px;
+	color: #000000;
 	margin-bottom: 100px;
+	position: relative;
+}
+.services-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 668px;
+    bottom: -7px;
 }
 .services-head h6 {
 	font-size: 17px;
 	font-weight: 300;
 }
 .services-icon {
-	font-size: 25px;
-	font-weight: 300;
+	font-size: 20px;
 	width: 90px;
 	height: 90px;
 	line-height: 90px;
@@ -176,7 +203,7 @@ body {
 	transition: all .8s ease-in;
 	margin-bottom: 50px;
 	background: #ffffff;
-	color: #004d00;	
+	color: #404040;	
 }
 .services-icon a {
 	color: inherit;
@@ -184,7 +211,8 @@ body {
 .services-content:hover .services-icon{
 	background: #d9d9d9;
 	cursor: pointer;
-	color: ;
+	color: #6dbcf8;
+	transition-delay: 0.2s;
 }
 .services-text h5{
 	font-size: 16px;
@@ -212,23 +240,33 @@ body {
 	margin-bottom: 100px;
 }
 .portfolio-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #2098f5;
+	letter-spacing: 2px;
+	color: #000000;
 	margin-bottom: 100px;
+	position: relative;
 }
-
+.portfolio-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 570px;
+    bottom: -7px;
+}
 .portfolio-card {
-	transition: all .3s ease-out;
-	box-shadow: 2px 6px 6px 2px #cccccc;
+	box-shadow: 5px 6px 6px 5px #d9d9d9;
 	margin: auto;
-	flex-basis: 75%;
+	flex-basis: 80%;
 }
 .portfolio-card:hover{
-    box-shadow: 5px 6px 6px 2px #5f483a;
-    transform: scale(1.01);
+    box-shadow: 20px 20px 80px 5px #9ed2fa inset;
+	transition-delay: 0.5s;
 }
 
 /* skills */
@@ -245,6 +283,18 @@ body {
 
 }
 
+ box-shadow: 50px 20px 50px 10px #9ed2fa inset;
+
+.portfolio-card {
+	transition: all .3s ease-out;
+	box-shadow: 2px 6px 6px 2px #d9d9d9;
+	margin: auto;
+	flex-basis: 75%;
+}
+.portfolio-card:hover{
+    box-shadow: 3px 7px 7px 3px #b3b3b3;
+	transition-delay: 0.2s;
+}
 */
 
 
@@ -254,12 +304,24 @@ body {
 	margin-bottom: 100px;
 }
 .skills-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #2098f5;
+	letter-spacing: 2px;
+	color: #000000;
 	margin-bottom: 100px;
+	position: relative;
+}
+.skills-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 550px;
+    bottom: -7px;
 }
 .skills-images {
 	display: flex;
@@ -276,19 +338,35 @@ body {
 /* main service starts */
 
 .work-process {
-	margin-top: 40px;
-	margin-bottom: 120px;
+	margin-bottom: 100px;
 }
 .work-process-head {
 	text-align: center;
-	margin-bottom: 100px;
 }
 .work-process-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #2098f5;
+	letter-spacing: 2px;
+	color: #000000;
+	margin-bottom: 100px;
+	position: relative;
+}
+.work-process-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 698px;
+    bottom: -7px;
+}
+.work-process-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
 }
 .work-process-icon {
 	font-size: 30px;
@@ -309,9 +387,9 @@ body {
     padding: 20px;
 }
 .work-process-serial-number {
-    background-color: #cccccc;
+    background-color: #d9d9d9;
     border-radius: 40px;
-    color: #b35900;
+    color: #2098f5;
     font-size: 20px;
     font-weight: 700;
 	width: 65px;
@@ -376,13 +454,28 @@ body {
 }
 
 /* contact form */
-
+.contact {
+	
+}
 .contact-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #2098f5;
+	letter-spacing: 2px;
+	color: #000000;
+	margin-bottom: 100px;
+	position: relative;
+}
+.contact-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 577px;
+    bottom: -7px;
 }
 .submit-button {
 	background: #ffffff;
@@ -397,7 +490,7 @@ body {
 .submit-button:hover {
 	background: #000000;
 	color: #ffffff;
-	border: 1px solid orange;
+	transition-delay: 0.2s;
 	
 }
 .form-control:focus {
@@ -406,34 +499,40 @@ body {
 }
 
 .contact-email h5 {
-	color: #f14d41;
+	color: #2098f5;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
 	font-weight: 600;
+	letter-spacing: 1px;
 }
 .contact-email p {
 	text-align: right;
+	letter-spacing: 2px;
 }
 .contact-phone h5 {
-	color: #f14d41;
+	color: #3ca5f6;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
 	font-weight: 600;
+	letter-spacing: 1px;
 }
 .contact-phone p {
 	text-align: right;
+	letter-spacing: 2px;
 }
 .contact-address h5 {
-	color: #f14d41;
+	color: #f36359;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
 	font-weight: 600;
+	letter-spacing: 1px;
 }
 .contact-address p {
 	text-align: right;
+	letter-spacing: 1px;
 }
 /*.contact-icon {
 	text-align: right;
@@ -446,24 +545,36 @@ body {
 }
 */
 
-.contact-images {
-	display: flex;
-	justify-content: flex-end;
+.contact-icon {
+	text-align: right;
+	position: relative;
+	font-size: 22px;
 }
-.contact-image-flex-1 {
-	width: 44px;
-	height: 44px;
-	margin-right: -10px;
-	margin-top: -10px;
+.contact-icon-1 {
+	font-size: 22px;
+	margin-right: -20px;
 }
-.contact-image-flex-2 {
-	width: 44px;
-	height: 44px;
-	margin-right: -10px;
-	margin-top: -10px;
+.contact-icon-2 {
+	font-size: 22px;
+	margin-right: -20px;
 }
-.contact-image-flex-3 {
-	width: 44px;
-	height: 44px;
-	margin-top: -10px;
+.contact-icon-3 {
+	font-size: 22px;
+	margin-right: -15px;
+}
+.contact-highlight {
+	text-decoration: none;
+	display: inline-block;
+}
+.contact-icon-1:hover {
+	color: #0077b5;
+	transition-delay: 0.2s;
+}
+.contact-icon-2:hover {
+	color: #000000;
+	transition-delay: 0.2s;
+}
+.contact-icon-3:hover {
+	color: #00aae7;
+	transition-delay: 0.2s;
 }

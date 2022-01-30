@@ -9,7 +9,7 @@ body {
 	word-spacing: 1px;
 }
 
-/* navbar starts */
+/* navbar section starts */
 
 .nav-menu {
 	font-size: 17px;
@@ -38,7 +38,9 @@ body {
    -webkit-transition-delay: 0.2s;
    -moz-transition-delay: 0.2s;
 }
-/* navbar ends*/
+
+/* home section starts */
+
 .home-page {	
 	width: 100%;
   	height: 100vh;
@@ -49,23 +51,6 @@ body {
 	margin-bottom: 100px;
 	background-color: #beedf3;
 }
-
-/*
-.home-page:before {
-	background-image: url("../img/home-page.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	opacity: 0.5;
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-}
-*/
 .home-page h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	position: relative;
@@ -93,41 +78,38 @@ body {
 	color: #2098f5;
 }
 .home-page-button-1 {
-	background: #000000;
+	background: #333333;
 	color: #ffffff;
-	border: 1px solid #000000;
+	border: 1px solid #595959;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 14px;
-	letter-spacing: 1.5px;
+	letter-spacing: 2px;
 	font-weight: 600;
 	position: relative;
-	padding: 8px 20px 8px 20px;
+	padding: 7px 20px 7px 20px;
 	margin: 10px 50px 10px 50px;
-	
 }
 .home-page-button-1:hover {
 	background: #ffffff;
-	color: #000000;
+	color: #333333;
 	transition-delay: 0.2s;
 }
 .home-page-button-2 {
 	background: #ffffff;
-	color: #000000;
-	border: 1px solid #333333;
+	color: #333333;
+	border: 1px solid #595959;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 7px 23px 7px 23px;
 	font-size: 14px;
-	letter-spacing: 1.5px;
+	letter-spacing: 2px;
 	font-weight: 600;
 	position: relative;
-	padding: 8px 20px 8px 20px;
-	margin: 10px 50px 10px 50px;
-	
+	padding: 7px 20px 7px 20px;
+	margin: 10px 50px 10px 50px;	
 }
 .home-page-button-2:hover {
-	background: #000000;
+	background: #333333;
 	color: #ffffff;
 	transition-delay: 0.2s;
 }
@@ -164,77 +146,8 @@ body {
 	color: #00aae7;
 	transition-delay: 0.2s;
 }
-/* main service starts */
 
-.services {
-	margin-bottom: 100px;
-}
-.services-head h1 {
-	font-family: 'Helvetica Neue', sans-serif;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	color: #000000;
-	margin-bottom: 100px;
-	position: relative;
-}
-.services-head h1:after {
-	content: "";
-	width: 100px;
-	height: 2px;
-    background: #2098f5;
-	position: absolute;
-	left: 668px;
-    bottom: -7px;
-}
-.services-head h6 {
-	font-size: 17px;
-	font-weight: 300;
-}
-.services-icon {
-	font-size: 20px;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	text-align: center;
-	margin: auto;
-	transition: all .8s ease-in;
-	margin-bottom: 50px;
-	background: #ffffff;
-	color: #404040;	
-}
-.services-icon a {
-	color: inherit;
-}
-.services-content:hover .services-icon{
-	background: #d9d9d9;
-	cursor: pointer;
-	color: #6dbcf8;
-	transition-delay: 0.2s;
-}
-.services-text h5{
-	font-size: 16px;
-	font-weight: 600;
-	text-align: center;
-	margin-bottom: 30px;
-	color: #000000;
-	text-transform: uppercase;
-}
-.services-text p {
-	font-size: 16px;
-	text-align: center;
-}
-.services-text p:first-letter {
-	font-size: 30px;
-}
-
-/* main service ends */
-
-
-/* portfolio starts */
-
+/* portfolio section starts */
 
 .portfolio {
 	margin-bottom: 100px;
@@ -259,20 +172,114 @@ body {
 	left: 570px;
     bottom: -7px;
 }
+.card-content {
+	margin-top: 15px;
+}
+.card-content h5 {
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.card-link {
+	font-weight: 600;
+	color: #6dbcf8;
+}
+.card-link:hover {
+	color: #0b8ff4;
+	transition-delay: 0.2s;
+}
 .portfolio-card {
-	box-shadow: 5px 6px 6px 5px #d9d9d9;
+	box-shadow: 6px 6px 6px 6px #d9d9d9;
 	margin: auto;
 	flex-basis: 80%;
 }
 .portfolio-card:hover{
-    box-shadow: 20px 20px 80px 5px #9ed2fa inset;
-	transition-delay: 0.5s;
+    box-shadow: 20px 20px 80px 20px #b6ddfb inset;
 }
 
-/* skills */
+/* service starts */
 
+.services {
+	margin-bottom: 100px;
+}
+.services-head h1 {
+	font-family: 'Helvetica Neue', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #000000;
+	margin-bottom: 100px;
+	position: relative;
+}
+.services-head h1:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+    background: #2098f5;
+	position: absolute;
+	left: 668px;
+    bottom: -7px;
+}
+.services-content-1 {
+	padding-right: 20px;
+}
+.services-content-1:hover .services-icon{
+	background: #d9d9d9;
+	cursor: pointer;
+	color: #6dbcf8;
+	transition-delay: 0.2s;
+}
+.services-content-2 {
+	padding-right: 20px;
+}
+.services-content-2:hover .services-icon{
+	background: #d9d9d9;
+	cursor: pointer;
+	color: #6dbcf8;
+	transition-delay: 0.2s;
+}
+.services-content-3:hover .services-icon{
+	background: #d9d9d9;
+	cursor: pointer;
+	color: #6dbcf8;
+	transition-delay: 0.2s;
+}
+.services-icon {
+	font-size: 20px;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin: auto;
+	transition: all .8s ease-in;
+	margin-bottom: 40px;
+	background: #ffffff;
+	color: #404040;	
+}
+.services-icon a {
+	color: inherit;
+}
+.services-text h5{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000000;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+.services-text p {
+	font-size: 16px;
+	text-align: center;
+}
+.services-text p:first-letter {
+	font-size: 22px;
+	color: #2098f5;
+}
 
-
+/* skills section starts */
 
 /* .skills {
 	background-color: #3A233F;
@@ -297,9 +304,6 @@ body {
 }
 */
 
-
-
-
 .skills {
 	margin-bottom: 100px;
 }
@@ -320,11 +324,15 @@ body {
 	height: 2px;
     background: #2098f5;
 	position: absolute;
-	left: 550px;
+	left: 655px;
     bottom: -7px;
 }
 .skills-images {
 	display: flex;
+	width: 100%;
+	margin: auto;
+	height: 50vh;
+    background-image: linear-gradient( 0deg, #e0cee4, transparent 80%),radial-gradient(at 50% 660px, #f5eff6, #cee9fd 89%);
 }
 .image-flex {
 	flex-basis: auto;
@@ -333,9 +341,7 @@ body {
 	height: 68px;
 }
 
-/* work process */
-
-/* main service starts */
+/* work process section starts */
 
 .work-process {
 	margin-bottom: 100px;
@@ -363,16 +369,45 @@ body {
 	left: 698px;
     bottom: -7px;
 }
+.work-process {	
+  	margin-bottom: 150px;
+	width: 100%;
+  	height: 100vh;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	position: relative;
+}
+.work-process:before {
+	content: "";
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 40px;
+	bottom: 0px;
+	left: 40px;
+	background-image: url("../img/2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.2;
+}
 .work-process-content {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
 }
 .work-process-icon {
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
-	margin-bottom: 70px;
-	color: #000000;	
+	margin-bottom: 80px;
+	color: #262626;	
+}
+.work-process-number{
+    margin-bottom: 60px;
+    position: relative;
+    padding: 20px;
 }
 .work-process-text h5{
 	font-size: 16px;
@@ -381,15 +416,10 @@ body {
 	color: #000000;
 	text-transform: uppercase;
 }
-.work-process-number{
-    margin-bottom: 60px;
-    position: relative;
-    padding: 20px;
-}
 .work-process-serial-number {
     background-color: #d9d9d9;
     border-radius: 40px;
-    color: #2098f5;
+    color: #3ca5f6;
     font-size: 20px;
     font-weight: 700;
 	width: 65px;
@@ -441,19 +471,8 @@ body {
 }
 */
 
+/* contact section starts */
 
-/* footer */
-
-.footer-section {
-	height: 50px;
-	line-height: 50px;
-}
-.footer-text p {
-	color: #ffffff;
-	text-align: center;
-}
-
-/* contact form */
 .contact {
 	
 }
@@ -499,7 +518,7 @@ body {
 }
 
 .contact-email h5 {
-	color: #2098f5;
+	color: #f24c40;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
@@ -511,7 +530,7 @@ body {
 	letter-spacing: 2px;
 }
 .contact-phone h5 {
-	color: #3ca5f6;
+	color: #f24c40;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
@@ -523,7 +542,7 @@ body {
 	letter-spacing: 2px;
 }
 .contact-address h5 {
-	color: #f36359;
+	color: #f24c40;
 	text-transform: uppercase;
 	text-align: right;
 	font-size: 16px;
@@ -532,7 +551,8 @@ body {
 }
 .contact-address p {
 	text-align: right;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
+
 }
 /*.contact-icon {
 	text-align: right;
@@ -577,4 +597,15 @@ body {
 .contact-icon-3:hover {
 	color: #00aae7;
 	transition-delay: 0.2s;
+}
+
+/* footer section starts */
+
+.footer-section {
+	height: 50px;
+	line-height: 50px;
+}
+.footer-text p {
+	color: #ffffff;
+	text-align: center;
 }

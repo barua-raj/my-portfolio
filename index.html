@@ -5,12 +5,11 @@
 		<title>My Portfolio</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="My Portfoli">
+		<meta name="description" content="My Portfolio">
 		<meta name="keywords" content="portfolio, Joyraz Barua, Jov Raj Barua, html css portfolio template, Bootstrap portfolio theme, simple portfolio">
 		<meta name="author" content="Jov Raj Barua">
 		
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/hover.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -23,9 +22,9 @@
 		
 		<!--- navbar section starts --->
 		
-		<section class="nav">
+		<section class="nav-menu-section">
 		
-			<nav class="navbar navbar-expand-lg fixed-top navbar-light nav-menu" style="background-color: #f2f2f2;>
+			<nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #f2f2f2;">
 		
 				<div class="container-fluid">
 				
@@ -38,25 +37,25 @@
 						<ul class="navbar-nav mx-auto mb-lg-0">
 						
 							<li class="nav-item">
-							  <a class="nav-link" aria-current="page" href="#"><span class="nav-menu-name">Home</span></a>
+							  <a class="nav-link" aria-current="page" href="#home-page"><span class="nav-menu-name">Home</span></a>
 							</li>
 							
 							<li class="nav-item">
-							  <a class="nav-link" aria-current="page" href="#"><span class="nav-menu-name">Portfolio</span></a>
+							  <a class="nav-link" aria-current="page" href="#portfolio"><span class="nav-menu-name">Portfolio</span></a>
 							</li>
 							
 							<li class="nav-item">
-							  <a class="nav-link" aria-current="page" href="#"><span class="nav-menu-name">Services</span></a>
+							  <a class="nav-link" aria-current="page" href="#services"><span class="nav-menu-name">Services</span></a>
 							</li>
 							
 							<li class="nav-item">
-							  <a class="nav-link" aria-current="page" href="#"><span class="nav-menu-name">Skills</span></a>
+							  <a class="nav-link" aria-current="page" href="#skills"><span class="nav-menu-name">Skills</span></a>
 							</li>
 							
 							<li class="nav-item">
-							  <a class="nav-link" aria-current="page" href="#"><span class="nav-menu-name">Work Process</span></a>
+							  <a class="nav-link" aria-current="page" href="#work-process"><span class="nav-menu-name">Work Process</span></a>
 							</li>
-								
+						
 						</ul>
 
 					</div>
@@ -69,6 +68,8 @@
 		
 		<!--- home section section starts --->
 		
+		<span class="jump-process" id="home-page"></span>
+		
 		<section class="home-page">
 		
 			<div class="container">
@@ -80,14 +81,15 @@
 						<h1>Hi! This is <span class="name">Jov Raj Barua</span></h1>
 						<h4>Junior Full Stack Web Developer</h4>
 						
-						<a class="btn rounded-0 home-page-button-1 wow animate__animated animate__fadeInLeft animate__slower" href="about.html" role="button" target="_blank">Resume</a>
-						<a class="btn rounded-0 home-page-button-2 wow animate__animated animate__fadeInRight animate__slower" href="" role="button">Contact</a>
+						<a class="btn rounded-0 home-page-resume-button wow animate__animated animate__fadeInLeft animate__slower" href="about.html" role="button" target="_blank">Resume</a>
+						
+						<a class="btn rounded-0 home-page-contact-button wow animate__animated animate__fadeInRight animate__slower" href="#contact" role="button">Contact</a>
 						
 						<div class="home-icon">
 							
-							<a href="https://github.com/barua-raj"><i class="btn fab fa-linkedin home-icon-1"></i></a>
-							<a href="https://github.com/barua-raj"><i class="btn fab fa-github home-icon-2"></i></a>
-							<a href="https://github.com/barua-raj"><i class="btn fab fa-skype home-icon-3"></i></a>
+							<a href="https://github.com/barua-raj" target="_blank"><i class="btn fab fa-linkedin home-icon-linkedin"></i></a>
+							<a href="https://github.com/barua-raj" target="_blank"><i class="btn fab fa-github home-icon-github"></i></a>
+							<a href="https://github.com/barua-raj" target="_blank"><i class="btn fab fa-skype home-icon-skype"></i></a>
 							
 						</div>
 
@@ -101,6 +103,8 @@
 		
 		<!--- portfolio section starts --->
 		
+		<span class="jump-process" id="portfolio"></span>
+		
 		<section class="portfolio">
 		
 			<div class="container">
@@ -113,7 +117,7 @@
 				
 				</div>
 				
-				<div class="row mb-5 card-flex">
+				<div class="row mb-5">
 				
 					<div class="col-sm-4 d-flex flex-nowrap">
 						
@@ -122,7 +126,7 @@
 							<img src="img/the-cake-shop.jpg" class="img-fluid card-image" alt="...">
 							
 							<div class="card-body card-content">
-								<h5>The Cake Shop</h5>
+								<h5>The Cake Shop<br>(Static)</h5>
 								
 								<p>Look at the code on <a href="https://github.com/barua-raj/demo-the-cake-shop" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
 								
@@ -141,7 +145,7 @@
 							<img src="img/student-registration-form.jpg" class="img-fluid" alt="...">
 							
 							<div class="card-body card-content">
-								<h5>Student Registration Form</h5>
+								<h5>Student Registration Form<br>(Dynamic)</h5>
 								
 								<p>Look at the code on <a href="https://github.com/barua-raj/php-and-MySQL-implementation/tree/main/project_student_registration_form" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
 								
@@ -157,15 +161,14 @@
 						
 						<div class="card h-100 text-center portfolio-card">
 						
-							<img src="img/student-registration-form.jpg" class="img-fluid" alt="...">
+							<img src="img/the-cake-shop.jpg" class="img-fluid card-image" alt="...">
 							
 							<div class="card-body card-content">
-							
-								<h5>Student Registration Form</h5>
+								<h5>The Cake Shop<br>(Static)</h5>
 								
-								<p>Look at the code on <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
+								<p>Look at the code on <a href="https://github.com/barua-raj/demo-the-cake-shop" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
 								
-								<p>View the page live <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
+								<p>View the page live <a href="https://barua-raj.github.io/demo-the-cake-shop/" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
 								
 							</div>
 							
@@ -175,7 +178,7 @@
 					
 				</div>
 				
-				<div class="row mb-5 card-flex">
+				<div class="row card-flex">
 				
 					<div class="col-sm-4 d-flex flex-nowrap">
 						
@@ -184,28 +187,9 @@
 							<img src="img/student-registration-form.jpg" class="img-fluid" alt="...">
 							
 							<div class="card-body card-content">
-								<h5>The Cake Shop</h5>
+								<h5>Student Registration Form<br>(Dynamic)</h5>
 								
-								<p>Look at the code on <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
-								
-								<p>View the page live <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
-								
-							</div>
-							
-						</div>
-						
-					</div>
-					
-					<div class="col-sm-4 d-flex flex-nowrap">
-						
-						<div class="card h-100 text-center portfolio-card">
-						
-							<img src="img/the-cake-shop.jpg" class="img-fluid" alt="...">
-							
-							<div class="card-body card-content">
-								<h5>Student Registration Form</h5>
-								
-								<p>Look at the code on <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
+								<p>Look at the code on <a href="https://github.com/barua-raj/php-and-MySQL-implementation/tree/main/project_student_registration_form" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
 								
 								<p>View the page live <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
 								
@@ -219,12 +203,31 @@
 						
 						<div class="card h-100 text-center portfolio-card">
 						
-							<img src="img/the-cake-shop.jpg" class="img-fluid" alt="...">
+							<img src="img/the-cake-shop.jpg" class="img-fluid card-image" alt="...">
 							
 							<div class="card-body card-content">
-								<h5>Student Registration Form</h5>
+								<h5>The Cake Shop<br>(Static)</h5>
 								
-								<p>Look at the code on <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
+								<p>Look at the code on <a href="https://github.com/barua-raj/demo-the-cake-shop" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
+								
+								<p>View the page live <a href="https://barua-raj.github.io/demo-the-cake-shop/" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					<div class="col-sm-4 d-flex flex-nowrap">
+						
+						<div class="card h-100 text-center portfolio-card">
+						
+							<img src="img/student-registration-form.jpg" class="img-fluid" alt="...">
+							
+							<div class="card-body card-content">
+								<h5>Student Registration Form<br>(Dynamic)</h5>
+								
+								<p>Look at the code on <a href="https://github.com/barua-raj/php-and-MySQL-implementation/tree/main/project_student_registration_form" style="text-decoration: none;" target="_blank"><span class="card-link">GitHub</span></a></p>
 								
 								<p>View the page live <a href="" style="text-decoration: none;" target="_blank"><span class="card-link">here</span></a></p>
 								
@@ -242,6 +245,8 @@
 		
 		<!--- services section starts --->
 		
+		<span class="jump-process" id="services"></span>
+		
 		<section class="services">
 		
 			<div class="container-fluid">
@@ -254,7 +259,7 @@
 					
 				</div>
 				
-				<div class="row">
+				<div class="row services-content">
 					
 					<div class="col-lg-4 services-content-1">
 							
@@ -303,6 +308,8 @@
 		</section>
 		
 		<!--- skills section starts --->
+		
+		<span class="jump-process" id="skills"></span>
 		
 		<section class="skills">
 			
@@ -353,6 +360,8 @@
 		</section>
 		
 		<!--- work process section starts --->
+		
+		<span class="jump-process" id="work-process"></span>
 		
 		<section class="work-process">
 		
@@ -439,6 +448,8 @@
 		</section>
 		
 		<!--- contact section starts --->
+		
+		<span class="jump-process" id="contact"></span>
 		
 		<section class="contact">
 		

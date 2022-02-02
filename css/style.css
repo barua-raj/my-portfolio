@@ -43,7 +43,8 @@ body {
   	justify-content: center;
   	position: relative;
 	margin-bottom: 100px;
-	background-color: #beedf3;
+	/*background-color: #beedf3;   */
+	background-image: linear-gradient( 0deg, #d5bddb, transparent 80%),radial-gradient(at 80% 660px, #eadeed, #cee8fd 59%);
 }
 .home-page h1 {
 	font-family: 'Helvetica Neue', sans-serif;
@@ -197,14 +198,13 @@ body {
 	flex-basis: 80%;
 }
 .portfolio-card:hover{
-    box-shadow: 20px 20px 40px 20px #b6ddfb inset;
+    box-shadow: 20px 20px 40px 25px #b6ddfb inset;
 }
 
 /* services section starts */
 
-
 .services {
-	margin-bottom: 100px;
+	margin-bottom: 90px;
 	position: relative;
 }
 .services:before {
@@ -243,17 +243,17 @@ body {
     bottom: -7px;
 }
 .services-icon {
-	font-size: 21px;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
+	font-size: 22px;
+	width: 92px;
+	height: 92px;
+	line-height: 92px;
 	text-align: center;
 	margin: auto;
 	transition: all .8s ease-in;
 	color: #4d4d4d;
 	position: relative;
 	background: #d9d9d9;
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 .services-content-1:hover .services-icon{
 	background: #9dd1fb;
@@ -274,25 +274,28 @@ body {
 	position: relative;
 }
 .services-text h5{
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 550;
 	text-align: center;
-	color: #6f5444;
+	color: #5f483a;
 	text-transform: uppercase;
 	word-spacing: 5px;
 	position: relative;
 	margin-bottom: 40px;
 }
 .services-text p {
-	font-size: 16px;
+	font-size: 14px;
+	word-spacing: 2px;
 	text-align: center;
 	position: relative;
+	margin-bottom: 50px;
+	font-family: Arial;
 }
 
 /* skills section starts */
 
 .skills {
-	margin-bottom: 110px;
+	margin-bottom: 105px;
 }
 .skills-head h1 {
 	font-family: 'Helvetica Neue', sans-serif;
@@ -318,19 +321,19 @@ body {
 	width: 100%;
 	margin: auto;
 	height: 55vh;
-    background-image: linear-gradient( 0deg, #e0cee4, transparent 80%),radial-gradient(at 50% 660px, #f5eff6, #cee9fd 89%);
+    background-image: linear-gradient( 0deg, #e0cee4, transparent 80%),radial-gradient(at 50% 660px, #eadeed, #b6ddfc 89%);
 }
 .skills-image-flex {
 	flex-basis: auto;
 	margin: auto;
-	width: 68px;
-	height: 68px;
+	width: 65px;
+	height: 65px;
 }
 
 /* work process section starts */
 
 .work-process {
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	position: relative;
 }
 .work-process:before {
@@ -357,7 +360,7 @@ body {
 	letter-spacing: 2px;
 	color: #4d4d4d;
 	position: relative;
-	margin-bottom: 120px;
+	margin-bottom: 130px;
 }
 .work-process-head h1:after {
 	content: "";
@@ -368,31 +371,28 @@ body {
 	left: 702px;
     bottom: -7px;
 }
-.work-process-content {
-	margin-bottom: 50px;
-	position: relative;
-}
 .work-process-icon {
 	font-size: 27px;
 	text-align: center;
-	margin-bottom: 90px;
-	color: #4d4d4d;	
+	color: #333333;
+	margin-bottom: 100px;
 }
 .work-process-number{
-    margin-bottom: 60px;
     position: relative;
     padding: 20px;
+	margin-bottom: 65px;
 }
 .work-process-text h5{
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
 	text-align: center;
-	color: #000000;
+	color: #5f483a;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	margin-bottom: 65px;
 }
 .work-process-serial-number {
-    background-color: #d9d9d9;
+    background-color: #cccccc;
     border-radius: 40px;
     color: #3ca5f6;
     font-size: 20px;
@@ -412,52 +412,23 @@ body {
 	width: 85px;
 	height: 85px;
 }
-/*
-.work-process-serial-number-1 {
-    background-color: #444;
-    border: 5px solid #fff;
-    border-radius: 40px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    height: 60px;
-    left: 50%;
-    line-height: 45px;
-    position: absolute;
-    text-align: center;
-    top: -30px;
-    transform: translateX(-50%);
-    width: 60px;
-}
-
-.work-process-serial-number-1 {
-	position: relative;
-	display: inline-block;
-}
-.work-process-serial-number-1:after {
-	content: "";
-	width: 150px;
-	height: 1px;
-    background: #e39c02;
-	position: absolute;
-	left: -50px;
-    bottom: 0px;
-	top: 22px;
-}
-*/
 
 /* contact section starts */
 
+.contact {
+	width: 95%;
+	margin: auto;
+}
 .contact-head h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 22px;
+	font-weight:500;
 	letter-spacing: 2px;
-	color: #000000;
-	margin-bottom: 70px;
+	color: #4d4d4d;
 	position: relative;
+	margin-bottom: 90px;
 }
 .contact-head h1:after {
 	content: "";
@@ -465,7 +436,7 @@ body {
 	height: 2px;
     background: #2098f5;
 	position: absolute;
-	left: 577px;
+	left: 650px;
     bottom: -7px;
 }
 .submit-button {
@@ -485,8 +456,8 @@ body {
 	
 }
 .form-control:focus {
-        border-color: #000000;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-color: #000000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
 }
 .contact-email h5 {
 	color: #f24c40;
@@ -525,17 +496,6 @@ body {
 	letter-spacing: 2px;
 
 }
-/*.contact-icon {
-	text-align: right;
-	font-size: 25px;
-	text-decoration: none;
-	color: #60493b;
-}
-.contact-icon a {
-	color: inherit;
-}
-*/
-
 .contact-icon {
 	text-align: right;
 	position: relative;
@@ -577,10 +537,31 @@ body {
 /* footer section starts */
 
 .footer-section {
-	height: 50px;
-	line-height: 50px;
+	height: 48px;
+	line-height: 48px;
+	background-color: #cccccc;
 }
 .footer-text p {
-	color: #ffffff;
+	color: #333333;
+	letter-spacing: 2px;
+	word-spacing: 2px;
 	text-align: center;
+}
+.footer-name {
+	text-decoration: none;
+	display: inline-block;
+	color: #0a81db;
+	font-weight: 600;
+}
+.scroll-icon {
+	text-align: right;
+	display: inline-block;
+	font-size: 33px;
+	text-decoration: none;
+}
+.scroll-icon-link {
+	color: #239af6;
+}
+.scroll-icon-link:hover {
+	color: #4d4d4d;
 }

@@ -35,44 +35,44 @@ body {
 
 /* home section starts */
 
-.home-page {	
+.home {	
 	width: 100%;
   	height: 100vh;
   	display: flex;
   	align-items: center;
   	justify-content: center;
   	position: relative;
-	margin-bottom: 100px;
-	/*background-color: #beedf3;   */
 	background-image: linear-gradient( 0deg, #d5bddb, transparent 80%),radial-gradient(at 80% 660px, #eadeed, #cee8fd 59%);
+	margin-bottom: 100px;
 }
-.home-page h1 {
+.home h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	position: relative;
 	font-size: 55px;
 	font-weight: 600;
 	text-align: center;
-	margin-top: 75px;
-	margin-bottom: 75px;
-	color: #737373;
 	word-spacing: 3px;
 	letter-spacing: 2px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	color: #737373;
 }
 .name {
 	color: #000000;
 }
-.home-page h4 {
-	font-size: 18px;
+.home h4 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
 	font-weight: 550;
-	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	word-spacing: 3px;
 	letter-spacing: 2px;
-	margin-bottom: 75px;
+	position: relative;
+	margin-bottom: 95px;
 	color: #2098f5;
 }
-.home-page-resume-button {
+.home-resume-button {
 	background: #333333;
 	color: #ffffff;
 	border: 1px solid #595959;
@@ -85,14 +85,14 @@ body {
 	padding: 7px 20px 7px 20px;
 	margin: 10px 50px 10px 50px;
 }
-.home-page-resume-button:hover {
+.home-resume-button:hover {
 	background: #ffffff;
 	color: #333333;
 	transition-delay: 0.2s;
 	-webkit-transition-delay: 0.2s;
     -moz-transition-delay: 0.2s;
 }
-.home-page-contact-button {
+.home-contact-button {
 	background: #ffffff;
 	color: #333333;
 	border: 1px solid #595959;
@@ -105,7 +105,7 @@ body {
 	padding: 7px 20px 7px 20px;
 	margin: 10px 45px 10px 45px;	
 }
-.home-page-contact-button:hover {
+.home-contact-button:hover {
 	background: #333333;
 	color: #ffffff;
 	transition-delay: 0.2s;
@@ -115,7 +115,7 @@ body {
 .home-icon {
 	text-align: center;
 	position: relative;
-	margin-top: 85px;
+	margin-top: 100px;
 }
 .home-icon-linkedin {
 	font-size: 21px;

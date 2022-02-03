@@ -445,10 +445,16 @@ body {
     border-color: #000000;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
 }
+.country-star-sign {
+	color: red !important;
+	display: inline;
+	float: none;
+}
 .submit-button {
 	background: #ffffff;
-	color: #000000;
-	border: 1px solid #000000;
+	color: #333333;
+	border: 1px solid #595959;
+	text-align: center;
 	text-transform: uppercase;
 	padding: 7px 23px 7px 23px;
 	font-size: 14px;
@@ -456,17 +462,18 @@ body {
 	font-weight: 600;
 }
 .submit-button:hover {
-	background: #000000;
+	background: #333333;
 	color: #ffffff;
 	transition-delay: 0.2s;
-	
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
 }
 .contact-email h5 {
-	color: #f24c40;
+	color: #f03628;
 	text-transform: uppercase;
 	text-align: right;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 800;
 	letter-spacing: 1px;
 }
 .contact-email p {
@@ -474,11 +481,11 @@ body {
 	letter-spacing: 2px;
 }
 .contact-phone h5 {
-	color: #f24c40;
+	color: #f03628;
 	text-transform: uppercase;
 	text-align: right;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 800;
 	letter-spacing: 1px;
 }
 .contact-phone p {
@@ -486,17 +493,16 @@ body {
 	letter-spacing: 2px;
 }
 .contact-address h5 {
-	color: #f24c40;
+	color: #f03628;
 	text-transform: uppercase;
 	text-align: right;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 800;
 	letter-spacing: 1px;
 }
 .contact-address p {
 	text-align: right;
 	letter-spacing: 2px;
-
 }
 .contact-icon {
 	text-align: right;
@@ -536,6 +542,24 @@ body {
     -moz-transition-delay: 0.2s;
 }
 
+/* scroll icon section starts */
+
+.scroll-icon {
+	text-align: right;
+	display: inline-block;
+	font-size: 33px;
+	text-decoration: none;
+}
+.scroll-icon-link {
+	color: #239af6;
+}
+.scroll-icon-link:hover {
+	color: #4d4d4d;
+	transition-delay: 0.2s;
+	-webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+}
+
 /* footer section starts */
 
 .footer-section {
@@ -554,16 +578,4 @@ body {
 	display: inline-block;
 	color: #0a81db;
 	font-weight: 600;
-}
-.scroll-icon {
-	text-align: right;
-	display: inline-block;
-	font-size: 33px;
-	text-decoration: none;
-}
-.scroll-icon-link {
-	color: #239af6;
-}
-.scroll-icon-link:hover {
-	color: #4d4d4d;
 }

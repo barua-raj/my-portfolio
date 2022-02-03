@@ -142,7 +142,6 @@ body {
 .home-icon-skype {
 	font-size: 21px;
 	color: #00aae7;
-	
 }
 .home-icon-skype:hover {
 	color: #262626;
@@ -190,7 +189,7 @@ body {
 	color: #0b8ff4;
 	transition-delay: 0.2s;
 	-webkit-transition-delay: 0.2s;
-   -moz-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
 }
 .portfolio-card {
 	box-shadow: 6px 6px 6px 6px #d9d9d9;

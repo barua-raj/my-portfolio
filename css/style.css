@@ -198,6 +198,9 @@ body {
 }
 .portfolio-card:hover{
     box-shadow: 20px 20px 40px 25px #b6ddfb inset;
+	transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
 }
 
 /* services section starts */
@@ -254,24 +257,6 @@ body {
 	background: #d9d9d9;
 	margin-bottom: 70px;
 }
-.services-content-1:hover .services-icon{
-	background: #9dd1fb;
-	color: #ffffff;
-	transition-delay: 0.2s;
-	position: relative;
-}
-.services-content-2:hover .services-icon{
-	background: #85c5fa;
-	color: #ffffff;
-	transition-delay: 0.2s;
-	position: relative;
-}
-.services-content-3:hover .services-icon{
-	background: #85c5fa;
-	color: #ffffff;
-	transition-delay: 0.2s;
-	position: relative;
-}
 .services-text h5{
 	font-size: 15px;
 	font-weight: 550;
@@ -289,6 +274,30 @@ body {
 	position: relative;
 	margin-bottom: 50px;
 	font-family: Arial;
+}
+.services-content-1:hover .services-icon{
+	background: #9dd1fb;
+	color: #ffffff;
+	transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	position: relative;
+}
+.services-content-2:hover .services-icon{
+	background: #85c5fa;
+	color: #ffffff;
+	transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	position: relative;
+}
+.services-content-3:hover .services-icon{
+	background: #85c5fa;
+	color: #ffffff;
+	transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	position: relative;
 }
 
 /* skills section starts */
@@ -381,15 +390,6 @@ body {
     padding: 20px;
 	margin-bottom: 65px;
 }
-.work-process-text h5{
-	font-size: 16px;
-	font-weight: 600;
-	text-align: center;
-	color: #5f483a;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom: 65px;
-}
 .work-process-serial-number {
     background-color: #cccccc;
     border-radius: 40px;
@@ -405,11 +405,14 @@ body {
     top: -30px;
     transform: translateX(-50%);
 }
-.work-process-icon img {
-	display: inline-block;
-	margin: auto;
-	width: 85px;
-	height: 85px;
+.work-process-text h5{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color: #5f483a;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 65px;
 }
 
 /* contact section starts */
@@ -438,6 +441,10 @@ body {
 	left: 650px;
     bottom: -7px;
 }
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
 .submit-button {
 	background: #ffffff;
 	color: #000000;
@@ -453,10 +460,6 @@ body {
 	color: #ffffff;
 	transition-delay: 0.2s;
 	
-}
-.form-control:focus {
-    border-color: #000000;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
 }
 .contact-email h5 {
 	color: #f24c40;

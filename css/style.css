@@ -206,7 +206,7 @@ body {
 /* services section starts */
 
 .services {
-	margin-bottom: 90px;
+	margin-bottom: 150px;
 	position: relative;
 }
 .services:before {
@@ -268,12 +268,12 @@ body {
 	margin-bottom: 40px;
 }
 .services-text p {
-	font-size: 14px;
+	font-size: 15px;
+	font-weight: 400;
 	word-spacing: 2px;
 	text-align: center;
 	position: relative;
 	margin-bottom: 50px;
-	font-family: Arial;
 }
 .services-content-1:hover .services-icon{
 	background: #9dd1fb;

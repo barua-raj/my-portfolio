@@ -16,8 +16,11 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+.heading {
+	padding-top: 10px;
+}
 .name {
-	border-bottom: 2px solid #2098f5;
+	border-bottom: 1px solid #2098f5;
 	flex-basis: 50%;
 }
 .name h2 {
@@ -30,24 +33,24 @@ body {
 .photo {
 	text-align: right;
 	flex-basis: 50%;
-	border-bottom: 2px solid #2098f5;
+	border-bottom: 1px solid #2098f5;
 }
 .photo img {
 	width: 130px;
 	height: 130px;
 }
 .object {
-	padding-top: 14px;
+	padding-top: 15px;
 }
 .object h2 {
 	font-size: 22px;
 	text-decoration: underline;
-	margin-bottom: 7px;
+	margin-bottom: 12px;
 }
 .object p {
 	font-size: 20px;
-	margin-bottom: 8px;
-	text-indent: 30px;
+	margin-bottom: 10px;
+	text-indent: 40px;
 }
 .edu-table {
 	flex-basis: 100%;
@@ -55,7 +58,7 @@ body {
 .edu-table h2 {
 	font-size: 22px;
 	text-decoration: underline;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .table-1 th, td {
 	border: 1px solid black;
@@ -64,7 +67,7 @@ body {
 	width: 90%;
 	border-collapse: collapse;
 	margin: auto;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
 }
 .table-head h3{
 	font-size: 18px;
@@ -90,12 +93,12 @@ body {
 .skill h2 {
 	text-decoration: underline;
 	font-size: 22px;
-	margin-bottom: 7px;
+	margin-bottom: 20px;
 }
 .skill p {
 	font-size: 20px;
 	text-indent: 50px;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
 }
 .skill-mark {
 	padding-bottom: 8px;
@@ -105,23 +108,27 @@ body {
 }
 .per {
 	flex-basis: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .per h2 {
 	font-size: 22px;
 	text-decoration: underline;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .per-menu {
 	font-size: 20px;
 	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .per-details {
 	font-size: 20px;
-	padding-left: 40px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .sig {
-	border-top: 2px solid #2098f5;
+	border-top: 1px solid #2098f5;
 	width: 100%;
 }
 .sig h3 {
@@ -129,9 +136,11 @@ body {
 	font-size: 18px;
 	text-align: justify;
 	padding-top: 10px;
+	margin-bottom: 20px;
 }
 .sig img {
 	max-width: 100%;
 	height: auto;
-	margin-right: 40px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000000;
 }

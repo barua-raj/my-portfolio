@@ -25,10 +25,10 @@ body {
 }
 .name h2 {
 	padding-bottom: 10px;
-	font-size: 35px;
+	font-size: 38px;
 }
 .name h5 {
-	font-size: 16px;
+	font-size: 17px;
 }
 .photo {
 	text-align: right;
@@ -36,29 +36,30 @@ body {
 	border-bottom: 1px solid #2098f5;
 }
 .photo img {
-	width: 130px;
-	height: 130px;
+	width: 135px;
+	height: 135px;
 }
 .object {
-	padding-top: 15px;
+	padding-top: 20px;
 }
 .object h2 {
-	font-size: 22px;
+	font-size: 24px;
 	text-decoration: underline;
 	margin-bottom: 12px;
 }
 .object p {
-	font-size: 20px;
-	margin-bottom: 10px;
+	font-size: 21px;
+	margin-bottom: 15px;
 	text-indent: 40px;
 }
 .edu-table {
 	flex-basis: 100%;
+	margin-bottom: 3px;
 }
 .edu-table h2 {
-	font-size: 22px;
+	font-size: 24px;
 	text-decoration: underline;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 .table-1 th, td {
 	border: 1px solid black;
@@ -70,7 +71,7 @@ body {
 	margin-bottom: 15px;
 }
 .table-head h3{
-	font-size: 18px;
+	font-size: 19px;
 	padding: 10px 5px 10px 5px;
 	text-align: center;
 }
@@ -91,14 +92,14 @@ body {
 	margin-bottom: 8px;
 }
 .skill h2 {
+	font-size: 24px;
 	text-decoration: underline;
-	font-size: 22px;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 .skill p {
-	font-size: 20px;
-	text-indent: 50px;
+	font-size: 21px;
 	margin-bottom: 15px;
+	text-indent: 40px;
 }
 .skill-mark {
 	padding-bottom: 8px;
@@ -111,18 +112,18 @@ body {
 	margin-bottom: 30px;
 }
 .per h2 {
-	font-size: 22px;
+	font-size: 24px;
 	text-decoration: underline;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 .per-menu {
-	font-size: 20px;
+	font-size: 21px;
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 .per-details {
-	font-size: 20px;
+	font-size: 21px;
 	padding-left: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -133,7 +134,7 @@ body {
 }
 .sig h3 {
 	text-indent: 10px;
-	font-size: 18px;
+	font-size: 19px;
 	text-align: justify;
 	padding-top: 10px;
 	margin-bottom: 20px;

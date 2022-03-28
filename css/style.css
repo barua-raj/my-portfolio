@@ -53,47 +53,15 @@ body {
 	text-align: center;
 	word-spacing: 3px;
 	letter-spacing: 2px;
-	padding-top: 100px;
-	margin-bottom: 70px;
 	color: #737373;
+	margin-top: 60px;
+	margin-bottom: 110px;
 }
 .name {
 	color: #000000;
 }
-.home h4 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: 550;
-	text-align: center;
-	text-transform: uppercase;
-	word-spacing: 3px;
-	letter-spacing: 2px;
-	position: relative;
-	color: #4d4d4d;
-	margin-bottom: 20px;
-}
-.home h6 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	font-weight: 550;
-	text-align: center;
-	word-spacing: 3px;
-	letter-spacing: 2px;
-	position: relative;
-	color: #4d4d4d;
-	margin-bottom: 20px;
-}
-.home h5 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: 550;
-	text-align: center;
-	text-transform: uppercase;
-	word-spacing: 3px;
-	letter-spacing: 2px;
-	position: relative;
-	color: #2098f5;
-	margin-bottom: 70px;
+.home-button {
+	margin-bottom: 110px;
 }
 .home-resume-button {
 	background: #333333;
@@ -138,7 +106,6 @@ body {
 .home-icon {
 	text-align: center;
 	position: relative;
-	margin-top: 70px;
 }
 .home-icon-linkedin {
 	font-size: 21px;
@@ -220,7 +187,7 @@ body {
 	flex-basis: 80%;
 }
 .portfolio-card:hover{
-    box-shadow: 20px 20px 40px 25px #b6ddfb inset;
+    box-shadow: 10px 10px 30px 20px #b6ddfb inset;
 	transition-delay: 0.2s;
     -webkit-transition-delay: 0.2s;
 	-moz-transition-delay: 0.2s;
@@ -232,6 +199,7 @@ body {
 	margin-bottom: 80px;
 	position: relative;
 }
+/*
 .services:before {
 	content: "";
 	background-size: cover;
@@ -247,6 +215,7 @@ body {
 	background-size: cover;
 	opacity: 0.2;
 }
+*/
 .services-head h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
@@ -375,7 +344,7 @@ body {
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/background01.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
